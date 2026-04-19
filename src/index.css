@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased select-none cursor-default;
+}
+
+/* Re-enable selection for inputs and textareas */
+input, textarea {
+  @apply select-text cursor-text;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
